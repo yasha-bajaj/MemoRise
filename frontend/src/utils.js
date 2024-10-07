@@ -1,1 +1,1 @@
-export const BACKENED_URL = "https://blog-app-"
+export const BACKENED_URL = "https://blogver2-0.onrender.com"
