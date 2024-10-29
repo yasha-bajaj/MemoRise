@@ -2,7 +2,8 @@
 
 MemoRise is a MERN (MongoDB, Express.js, React.js, Node.js) based web application designed as a comprehensive digital companion to help in the early detection of Alzheimer's disease. The platform offers interactive mind games for cognitive improvement, a progress tracker to monitor memory skills, and a personal diary for capturing daily thoughts and memories. Through its AI-powered chatbot, MemoRise detects early signs of Alzheimer's and provides a personalized experience tailored to users' cognitive needs.
 
-![Screenshot 2024-10-29 225246](https://github.com/user-attachments/assets/3bc131b9-26e1-4bc7-bded-34b3bedd9921)
+![Screenshot 2024-10-29 225246](https://github.com/user-attachments/assets/fe67a71d-561d-4999-a667-880c3df8526d)
+
 
 
 ## Table of Contents
