@@ -114,7 +114,7 @@ function CreateBlog() {
 
             <button
               type="submit"
-              className="w-full py-3 px-4 bg-green-600 hover:bg-green-700 text-white rounded-md transition-colors duration-200"
+              className="w-full py-3 px-4 bg-yellow-600 hover:bg-yellow-700 text-white rounded-md transition-colors duration-200"
             >
               Post Blog
             </button>

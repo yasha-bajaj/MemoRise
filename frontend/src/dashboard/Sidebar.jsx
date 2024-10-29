@@ -66,31 +66,31 @@ function Sidebar({ setComponent }) {
         <ul className="space-y-6 mx-4">
           <button
             onClick={() => handleComponents("My Blogs")}
-            className="w-full px-4 py-2 bg-green-500 rounded-lg hover:bg-green-700 transition duration-300"
+            className="w-full px-4 py-2 bg-yellow-500 rounded-lg hover:bg-yellow-700 transition duration-300"
           >
-            MY BLOGS
+            MY GAMES
           </button>
           <button
             onClick={() => handleComponents("Create Blog")}
-            className="w-full px-4 py-2 bg-green-500 rounded-lg hover:bg-green-700 transition duration-300"
+            className="w-full px-4 py-2 bg-yellow-500 rounded-lg hover:bg-yellowt-700 transition duration-300"
           >
-            CREATE BLOG
+            UPLOAD GAMES
           </button>
           <button
             onClick={() => handleComponents("My Profile")}
-            className="w-full px-4 py-2 bg-green-500 rounded-lg hover:bg-green-700 transition duration-300"
+            className="w-full px-4 py-2 bg-yellow-500 rounded-lg hover:bg-yellow-700 transition duration-300"
           >
             MY PROFILE
           </button>
           <button
             onClick={gotoHome}
-            className="w-full px-4 py-2 bg-green-500 rounded-lg hover:bg-green-700 transition duration-300"
+            className="w-full px-4 py-2 bg-yellow-500 rounded-lg hover:bg-yellow-700 transition duration-300"
           >
             HOME
           </button>
           <button
             onClick={handleLogout}
-            className="w-full px-4 py-2 bg-green-500 rounded-lg hover:bg-green-700 transition duration-300"
+            className="w-full px-4 py-2 bg-red-400 rounded-lg hover:bg-red-700 transition duration-300"
           >
             LOGOUT
           </button>

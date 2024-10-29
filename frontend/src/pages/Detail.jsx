@@ -29,7 +29,7 @@ function Detail() {
   }, [id]);
   return (
     <div>
-      <div  className=" text-green-500">
+      <div  className=" text-yellow-500">
         {blogs && (
           <section className="container mx-auto p-4">
             <div className=" uppercase text-xs font-bold mb-4">

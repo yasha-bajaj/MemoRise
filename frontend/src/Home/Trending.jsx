@@ -27,14 +27,14 @@ function Trending() {
   };
   return (
     <div className=" container mx-auto  bg-slate-9">
-      <h1 className=" text-2xl font-semibold mb-4 text-green-600">Trending</h1>
+      <h1 className=" text-2xl font-semibold mb-4 text-yellow-600">Trending</h1>
       <Carousel responsive={responsive}>
         {blogs && blogs.length > 0 ? (
           blogs.slice(0, 6).map((element) => {
             return (
               <div
                 key={element._id}
-                className="p-4 bg-green-700 border border-gray-400 rounded-lg shadow-md mx-2"
+                className="p-4 bg-yellow-700 border border-gray-400 rounded-lg shadow-md mx-2"
               >
                 <Link to={`/blog/${element._id}`}>
                   <div className="relative">

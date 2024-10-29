@@ -9,9 +9,9 @@ function Devotional() {
   return (
     <div className="">
       <div className="container mx-auto my-12 p-4">
-        <h1 className="text-2xl font-bold mb-6 text-green-600">Cyber-crime</h1>
-        <p className="text-center mb-8 text-green-600">
-        In a world full of bugs, be the feature! Code, commit, and conquer on GitHub!        </p>
+        <h1 className="text-2xl font-bold mb-6 text-yellow-300">New Games</h1>
+        <p className="text-center mb-8 text-yellow-300">
+        Memories are the threads that connect us to our loved ones, and each moment matters!        </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-4">
           {devotionalBlogs && devotionalBlogs.length > 0 ? (
             devotionalBlogs.map((blog, index) => (
@@ -33,8 +33,8 @@ function Devotional() {
               </Link>
             ))
           ) : (
-            <div className=" flex h-screen items-center justify-center text-green-600 font-semibold text-xl">
-              No Blogs found.
+            <div className=" flex h-screen items-center justify-center text-yellow-600 font-semibold text-xl">
+              No Games found.
             </div>
           )}
         </div>

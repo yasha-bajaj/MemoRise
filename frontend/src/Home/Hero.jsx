@@ -26,7 +26,7 @@ function Hero() {
                   {element.title}
                 </h1>
               </div>
-              <div className="p-6 flex items-center bg-green-600 ">
+              <div className="p-6 flex items-center bg-yellow-600 ">
                 <img
                   src={element.adminPhoto}
                   alt=""

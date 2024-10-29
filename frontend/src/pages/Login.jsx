@@ -54,7 +54,7 @@ function Login() {
         <div className="w-full max-w-md bg-slate-500 shadow-md rounded-lg p-8">
           <form onSubmit={handleLogin}>
             <div className="font-semibold text-xl items-center text-center">
-              GitHub<span className="text-green-500">Blogs</span>
+              Memo<span className="text-yellow-500">Rise</span>
             </div>
             <h1 className="text-xl font-semibold mb-6">Login</h1>
             <select
@@ -89,13 +89,13 @@ function Login() {
 
             <p className="text-center mb-4">
               New User?{" "}
-              <Link to={"/register"} className="text-green-600">
+              <Link to={"/register"} className="text-yellow-600">
                 Register Now
               </Link>
             </p>
             <button
               type="submit"
-              className="w-full p-2 bg-green-500 hover:bg-green-800 duration-300 rounded-md text-white"
+              className="w-full p-2 bg-yellow-500 hover:bg-yellow-800 duration-300 rounded-md text-white"
             >
               Login
             </button>

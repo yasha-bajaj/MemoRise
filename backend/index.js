@@ -8,7 +8,8 @@ import cookieParser from "cookie-parser";
 import userRoute from "./routes/user.route.js";
 import blogRoute from "./routes/blog.route.js";
 
-import cors from "cors"
+import cors from "cors";
+
 const app = express();
 dotenv.config();
 

@@ -8,12 +8,12 @@ function Blogs() {
   console.log(blogs);
   return (
     <div>
-      <div className="container mx-auto my-12 p-4 text-green-600">
+      <div className="container mx-auto my-12 p-4  text-yellow-600">
         <h1 className="text-2xl font-bold mb-6">All Blogs goes here!!!</h1>
         <p className="text-center mb-8">
-        GitHub: The only place where you can branch out without getting lost!
+        MemoRise: Empowering Minds, Enriching Memories!
         </p>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4">
           {blogs && blogs.length > 0 ? (
             blogs.map((blog, index) => (
               <Link

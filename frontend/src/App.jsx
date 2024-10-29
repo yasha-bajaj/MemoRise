@@ -15,6 +15,9 @@ import { Toaster } from "react-hot-toast";
 import UpdateBlog from "./dashboard/UpdateBlog";
 import Detail from "./pages/Detail";
 import NotFound from "../src/pages/Notfound";
+import Diary from '../src/pages/Diary';
+import Games from './pages/Games';
+import ScoreEntry from "./pages/ScoreEntry";
 function App() {
   const location = useLocation();
   const hideNavbarFooter = ["/dashboard", "/login", "/register"].includes(
@@ -41,6 +44,9 @@ function App() {
         <Route exact path="/login" element={<Login />} />
         <Route exact path="/register" element={<Register />} />
         <Route exact path="/dashboard" element={<Dashboard />} />
+        <Route exact path="/diary" element={<Diary />} />
+        <Route exact path="/games" element={<Games />} />
+        <Route exact path="/score-entry" element={<ScoreEntry />} />
 
         {/* Single page route */}
         <Route exact path="/blog/:id" element={<Detail />} />

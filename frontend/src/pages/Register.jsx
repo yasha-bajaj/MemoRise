@@ -78,7 +78,7 @@ function Register() {
         <div className="w-full max-w-md bg-slate-500 shadow-md rounded-lg p-8">
           <form onSubmit={handleRegister}>
             <div className="font-semibold text-xl items-center text-center">
-              GitHub<span className="text-green-500">Blogs</span>
+              Memo<span className="text-yellow-500">Rise</span>
             </div>
             <h1 className="text-xl font-semibold mb-6">Register</h1>
             <select
@@ -152,13 +152,13 @@ function Register() {
             </div>
             <p className="text-center mb-4">
               Already registered?{" "}
-              <Link to={"/login"} className="text-green-600">
+              <Link to={"/login"} className="text-yellow-600">
                 Login Now
               </Link>
             </p>
             <button
               type="submit"
-              className="w-full p-2 bg-green-500 hover:bg-green-800 duration-300 rounded-md text-white"
+              className="w-full p-2 bg-yellow-500 hover:bg-yellow-800 duration-300 rounded-md text-white"
             >
               Register
             </button>

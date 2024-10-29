@@ -19,7 +19,7 @@ function Creator() {
   }, []);
   return (
     <div className=" bg-slate-900 container mx-auto p-4">
-      <h1 className="text-2xl font-semibold mb-6 text-green-600">Popular Creators</h1>
+      <h1 className="text-2xl font-semibold mb-6 text-yellow-600">Popular Contributors</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 rounded-full my-5">
         {admin && admin.length > 0 ? (
           admin.slice(0, 4).map((element) => {
@@ -32,8 +32,8 @@ function Creator() {
                     className="md:w-56 md:h-56 object-cover border border-white rounded-full items-center "
                   />
                   <div className="text-center md:ml-[-130px]">
-                    <p className="text-green-600">{element.name}</p>
-                    <p className="text-green-800 text-xs">{element.role}</p>
+                    <p className="text-yellow-600">{element.name}</p>
+                    <p className="text-yellow-800 text-xs">{element.role}</p>
                   </div>
                 </div>
               </div>

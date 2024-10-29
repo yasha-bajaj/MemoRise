@@ -137,7 +137,7 @@ function UpdateBlog() {
             />
 
             <button
-              className="w-full p-3 bg-green-600 text-white rounded-md hover:bg-green-700"
+              className="w-full p-3 bg-yellow-600 text-white rounded-md hover:bg-yellow-700"
               onClick={handleUpdate}
             >
               UPDATE

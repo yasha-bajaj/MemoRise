@@ -103,7 +103,7 @@ function Contact() {
                 </li>
                 <li className="flex items-center space-x-2">
                   <FaEnvelope className="text-pink-500" />
-                  <span>help@githubsrm.com</span>
+                  <span>help@memorise.com</span>
                 </li>
                 <li className="flex items-center space-x-2">
                   <FaMapMarkerAlt className="text-green-500" />

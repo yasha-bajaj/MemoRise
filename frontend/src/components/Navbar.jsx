@@ -36,25 +36,29 @@ function Navbar() {
       <nav className=" shadow-lg px-4 py-2 bg-black">
         <div className="flex items-center justify-between container mx-auto bg-black">
           <div className="font-semibold text-white text-xl">
-            GitHub<span className="text-green-500">Blogs</span>
+            Memo<span className="text-yellow-500">Rise</span>
           </div>
           <div className=" mx-6">
             <ul className="hidden md:flex space-x-6">
-              <Link to="/" className="hover:text-green-500 text-white">
+              <Link to="/" className="hover:text-yellow-500 text-white">
                 HOME
               </Link>
-              <Link to="/blogs" className="hover:text-green-500 text-white">
+              <Link to="/games" className="hover:text-yellow-500 text-white">
+                GAMES
+              </Link>
+              <Link to="/diary" className="hover:text-yellow-500 text-white">
+                DIARY
+              </Link>
+              <Link to="/blogs" className="hover:text-yellow-500 text-white">
                 BLOGS
               </Link>
-              <Link to="/creators" className="hover:text-green-500 text-white">
-                CREATORS
-              </Link>
-              <Link to="/about" className="hover:text-green-500 text-white">
+              <Link to="/about" className="hover:text-yellow-500 text-white">
                 ABOUT
               </Link>
-              <Link to="/contact" className="hover:text-green-500 text-white">
+              <Link to="/contact" className="hover:text-yellow-500 text-white">
                 CONTACT
               </Link>
+              <Link to="/score-entry" className="hover:text-yellow-500 bg-orange-500 text-white rounded-full px-4 py-1 shadow-md hover:bg-orange-600 transition duration-300 ease-in-out">Scores</Link>
             </ul>
             <div className="md:hidden" onClick={() => setShow(!show)}>
               {show ? <IoCloseSharp size={24} /> : <AiOutlineMenu size={24} />}
@@ -102,7 +106,7 @@ function Navbar() {
                 duration={500}
                 offset={-70}
                 activeClass="active"
-                className="hover:text-green-500 text-white"
+                className="hover:text-yellow-500 text-white"
               >
                 HOME
               </Link>
@@ -113,7 +117,7 @@ function Navbar() {
                 duration={500}
                 offset={-70}
                 activeClass="active"
-                className="hover:text-green-500 text-white"
+                className="hover:text-yellow-500 text-white"
               >
                 BLOGS
               </Link>
@@ -124,7 +128,7 @@ function Navbar() {
                 duration={500}
                 offset={-70}
                 activeClass="active"
-                className="hover:text-green-500 text-white"
+                className="hover:text-yellow-500 text-white"
               >
                 CREATORS
               </Link>
@@ -135,7 +139,7 @@ function Navbar() {
                 duration={500}
                 offset={-70}
                 activeClass="active"
-                className="hover:text-green-500 text-white"
+                className="hover:text-yellow-500 text-white"
               >
                 ABOUT
               </Link>
@@ -146,7 +150,7 @@ function Navbar() {
                 duration={500}
                 offset={-70}
                 activeClass="active"
-                className="hover:text-green-500 text-white"
+                className="hover:text-yellow-500 text-white"
               >
                 CONTACT
               </Link>
